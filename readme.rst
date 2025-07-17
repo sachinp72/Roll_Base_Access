@@ -1,70 +1,50 @@
-###################
-What is CodeIgniter
-###################
+<b># Role-Based Access Control (RBAC) System – CodeIgniter <b>
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+This project implements a simple and scalable Role-Based Access Control (RBAC) system using the CodeIgniter PHP framework. It allows user authentication, role assignment, and permissions-based access to different modules and features of a web application.
 
-*******************
-Release Information
-*******************
+---
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+## 🔧 Technologies Used
 
-**************************
-Changelog and New Features
-**************************
+- PHP (>= 7.2+)
+- CodeIgniter 3.x 
+- MySQL 
+- Bootstrap 
+- jQuery
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
 
-*******************
-Server Requirements
-*******************
+---
 
-PHP version 5.6 or newer is recommended.
+<b>## ✅ Functionalities<b>
 
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
+<b>### 1. 🔐 User Authentication<b>
 
-************
-Installation
-************
+- Login and Logout
+- Password hashing and verification
+- Session management
 
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
+<b>### 2. 👤 User Management<b>
 
-*******
-License
-*******
+- Create, update, delete users
+- Assign roles to users
+- List all users and their roles
 
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
+<b>### 3. 🔑 Role Management<b>
 
-*********
-Resources
-*********
+- Create, update, delete roles
+- Assign multiple permissions to a role
 
--  `User Guide <https://codeigniter.com/docs>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
+<b>### 4. 📜 Permission Management<b>
 
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
+- Create and manage permissions (e.g., `view_dashboard`, `edit_user`)
+- Assign permissions to roles
 
-***************
-Acknowledgement
-***************
+<b>### 5. 🔒 Access Control Middleware<b>
 
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
+- Custom helper/middleware to check:
+  - If a user is logged in
+  - If a user has a specific role or permission
+- Block or redirect unauthorized access
+
+
+

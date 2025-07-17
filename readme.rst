@@ -1,4 +1,4 @@
-<b># Role-Based Access Control (RBAC) System – CodeIgniter <b>
+# Role-Based Access Control (RBAC) System – CodeIgniter 
 
 This project implements a simple and scalable Role-Based Access Control (RBAC) system using the CodeIgniter PHP framework. It allows user authentication, role assignment, and permissions-based access to different modules and features of a web application.
 
@@ -15,31 +15,31 @@ This project implements a simple and scalable Role-Based Access Control (RBAC) s
 
 ---
 
-<b>## ✅ Functionalities<b>
+## ✅ Functionalities
 
-<b>### 1. 🔐 User Authentication<b>
+### 1. 🔐 User Authentication
 
 - Login and Logout
 - Password hashing and verification
 - Session management
 
-<b>### 2. 👤 User Management<b>
+### 2. 👤 User Management
 
 - Create, update, delete users
 - Assign roles to users
 - List all users and their roles
 
-<b>### 3. 🔑 Role Management<b>
+### 3. 🔑 Role Management
 
 - Create, update, delete roles
 - Assign multiple permissions to a role
 
-<b>### 4. 📜 Permission Management<b>
+### 4. 📜 Permission Management
 
 - Create and manage permissions (e.g., `view_dashboard`, `edit_user`)
 - Assign permissions to roles
 
-<b>### 5. 🔒 Access Control Middleware<b>
+### 5. 🔒 Access Control Middleware
 
 - Custom helper/middleware to check:
   - If a user is logged in
